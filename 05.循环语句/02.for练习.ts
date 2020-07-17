@@ -18,3 +18,10 @@ for (let i = 2; i <= 100; i++) {
         console.log(i + '是素数')
     }
 }
+
+// for 求1~100的和
+let sum: number = 0
+for (let i: number = 1; i <= 100; i++) {
+    sum += i
+}
+console.log('sum = ' + sum);
