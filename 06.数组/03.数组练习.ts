@@ -21,3 +21,12 @@ for (let i: number = 1; i < arr2.length; i++) {
 }
 
 console.log('max = ' + max)
+
+// 找出数组中所有不为0的元素
+let arr3: number[] = [1, 3, 0, 25, 33, 0, 0, 6]
+let newArr: number[] = []
+newArr = arr3.filter(element => {
+    return element !== 0
+})
+
+console.log(newArr)
