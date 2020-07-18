@@ -11,7 +11,7 @@ console.log('sum = ' + sum);
 
 // 找出数组中的最大值
 
-let arr2: number[] = [1, 9, 3]
+let arr2: number[] = [1, 9, 3, 12, 8, 21]
 let max: number = arr2[0]
 
 for (let i: number = 1; i < arr2.length; i++) {
